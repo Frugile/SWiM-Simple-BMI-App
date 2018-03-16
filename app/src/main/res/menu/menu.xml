@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/save_input"
+        android:icon="@drawable/ic_save_white_24dp"
+        app:showAsAction="ifRoom|withText"
+        android:title="@string/save"/>
+        <!--android:onClick="save_file"-->
+
+    <item
+        android:id="@+id/author"
+        android:icon="@drawable/ic_more_vert_white_24dp"
+        app:showAsAction="never"
+        android:title="@string/about_author">
+    </item>
+</menu>
